@@ -21,12 +21,12 @@ const Footer: React.FC<FooterProps> = ({ companyName }) => {
             <p>Join Our News Collection</p>
             <div className='form'>
             <form>
-               
+
             <div className='new'>
             <label htmlFor="email"></label>
             <input type="text" placeholder="Enter your email" id="email" name="email" />
             </div>
-            
+          
             </form> 
             </div>
             
