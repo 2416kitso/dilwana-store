@@ -1,0 +1,84 @@
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    height: 200px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .logo-image {
+    width: 50px; /* Adjust the width to your preferred size */
+    height: 50px; /* Adjust the height to your preferred size */
+  }
+  
+  .logo-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-text p {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+
+  
+  .footer-info {
+    text-align: center; 
+  }
+  
+.footer-form p{
+    margin: 5px 0;
+    display: flex;
+    margin-left: 1350px;
+    margin-top: -65px;
+    font-size: 20px;
+  }
+  
+  .form {
+    display: flex;
+    margin: 5px 0;
+    display: flex;
+    margin-left: 1350px;
+    margin-top: 30px;
+  }
+  
+  
+  .form input {
+    margin: 0;
+  
+  }
+  .new{
+    width: 100%;
+    background-color: blueviolet;
+    border-bottom: 2px black;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px white;
+  }
+  
+  
+  
+  /* Add any additional styling here */
+  
