@@ -1,9 +1,14 @@
 .footer {
+    width: 100%;
     background-color: black;
-    padding: 20px 0;
     text-align: center;
     color: white;
     height: 200px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-content {
@@ -16,8 +21,7 @@
   
   .footer-logo {
     display: flex;
-    align-items: center;
-    margin-left: 80px;
+    flex-direction: column;
   }
 
   .logo-image {
@@ -44,41 +48,52 @@
   }
   
 .footer-form p{
-    margin: 5px 0;
     display: flex;
-    margin-left: 1350px;
-    margin-top: -65px;
     font-size: 20px;
   }
   
   .form {
+    background-color: brown;
     display: flex;
-    margin: 5px 0;
     display: flex;
-    margin-left: 1350px;
-    margin-top: 30px;
   }
   
+  .form form {
+    width: 400px;
+  }
   
   .form input {
-    margin: 0;
-  
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
   }
   .new{
+    background-color: aquamarine;
     width: 100%;
-    background-color: blueviolet;
-    border-bottom: 2px black;
   }
 
-  input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    border-bottom: 2px white;
+
+  /* footer main container */
+  
+  .footer-main {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
   }
   
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+  }
+
+  .from-header {
+    background-color: red;
+  }
   
+  .the-from {background-color: coral;}
   
   /* Add any additional styling here */
   
